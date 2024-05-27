@@ -34,23 +34,23 @@ $json_data = json_encode([
             // Footer
             "footer" => [
                 "text" => $_POST[""],
-                "icon_url" => "https://ru.gravatar.com/userimage/28503754/1168e2bddca84fec2a63addb348c571d.jpg?size=375"
+                "icon_url" => ""
             ],
 
             // Image to send
             "image" => [
-                "url" => "https://ru.gravatar.com/userimage/28503754/1168e2bddca84fec2a63addb348c571d.jpg?size=600"
+                "url" => ""
             ],
 
             // Thumbnail
-            //"thumbnail" => [
-            //    "url" => "https://ru.gravatar.com/userimage/28503754/1168e2bddca84fec2a63addb348c571d.jpg?size=400"
-            //],
+            "thumbnail" => [
+                "url" => ""
+            ],
 
             // Author
             "author" => [
-                "name" => "krasin.space",
-                "url" => "https://krasin.space/"
+                "name" => "",
+                "url" => ""
             ],
 
             // Additional Fields array
@@ -99,7 +99,6 @@ curl_close($ch);
 
     <body>
         <div class="container">
-            <!--
             <form class="row g-3 needs-validation" novalidate>
                 <div class="col-md-4 form-floating">
                     <input type="text" class="form-control" id="validationCustom01" required placeholder="First name">
@@ -161,7 +160,6 @@ curl_close($ch);
                     <button class="btn btn-primary" type="submit">Submit form</button>
                 </div>
             </form>
--->
             <form class="row g-3 needs-validation" novalidate>
                 <div class="col-md-4">
                     <label for="validationCustom01" class="form-label">First name</label>
